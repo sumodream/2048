@@ -1,0 +1,74 @@
+/**
+ * Created by liuyubobobo on 14-4-11.
+ * my site: http://www.liuyubobobo.com
+ */
+
+body {
+    font-family:Arial;
+    overflow: hidden;
+}
+h1,p,body {
+    margin: 0;
+    padding:0;
+}
+
+.header{
+    display:block;
+    text-align:center;
+    overflow: hidden;
+}
+
+.header h1{
+    font-size: 1.2em;
+    font-weight:bold;
+}
+
+.newGameButton{
+    width : 6em;
+    margin: 0 auto;
+    display: block;
+    background-color:#8f7a66;
+    color:white;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+#grid-container{
+    background-color:#bbada0;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.grid-cell {
+    background-color: #ccc0b3;
+}
+
+.grid-cell,.number-cell{
+    border-radius: 6px;
+    position: absolute;
+}
+
+.number-cell{
+    overflow: hidden;
+    font-weight:bold;
+    text-align:center;
+}
+
+#over {
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    z-index: 10;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    width:100%;
+    height: 100%;
+    line-height: 1.5em;
+}
+
+#over p {
+    padding-top: 30%;
+    color : red;
+}

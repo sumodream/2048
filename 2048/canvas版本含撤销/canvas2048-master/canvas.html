@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>正在施工中的2048</title>
+        <meta charset="utf-8">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="yes" name="apple-touch-fullscreen">
+        <meta content="telephone=no" name="format-detection">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        <meta property="wb:webmaster" content="memoryza">
+        <meta name="author" content="memoryza">
+        <meta name="copyright" content="Copyright@jincai.wang@foxmail.com版权所有">
+        <meta name="github" content="https://github.com/memoryza/canvas2048">
+        <meta name="keywords" content="2048,1024,memoryza">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <link type="text/css" rel="styleSheet" href="css/index.css">
+    </head>
+    <body>
+        <div class="game_content" id="content">
+            <div id="restart">重玩</div>
+            <div id="undo">撤销(<span id="undoNum">5</span>)</div>
+            <div class="scorediv">分数:<span id="score">0</span>
+            </div>
+            <div id="message">
+                <div class="title">友情提醒</div>
+                <div id="tipContent">提醒内容</div>
+                <div class="ok"><a id="confirmBtn">确定</a></div>
+            </div>
+            <canvas width="322px" height="322px" id="grid">5_5抱歉你的手机不支持该游戏</canvas>
+            <div class="controller" id="controller">
+                <div class="dirBtn" id="up">上(↑)</div>
+                <div class="dirBtn" id="down">下(↓)</div>
+                <div class="dirBtn" id="left">左(←)</div>
+                <div class="dirBtn" id="right">右(→)</div>
+            </div>
+        </div>
+    </body>
+</html>
+<script src="js/eventUtil.js"></script>
+<script src="js/jsDom.js"></script>
+<script src="js/Array.js"></script>
+<script src="js/game.js"></script>
+<script src="js/game.entity.js"></script>
+<script src="js/game.action.js"></script>
+<script src="js/index.js"></script>

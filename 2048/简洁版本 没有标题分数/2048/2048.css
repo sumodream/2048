@@ -1,0 +1,23 @@
+ul, li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    #grid {
+        border: 1px solid #333;
+        position: relative;
+        margin: 60px auto;
+        border-radius: 5px;
+        background-color:#BBADA0;
+    }
+    #grid .cell {
+        position: absolute;
+        border: 1px solid #333;
+        border-radius: 5px;
+        background-color: #CDC0B4;
+        color: #fff;
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+        font-family: "微软雅黑";
+    }
